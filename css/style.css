@@ -1,0 +1,428 @@
+body {
+  margin-top:0;
+  margin-left: 0;
+}
+
+#title {
+  background-color: #FCFEFE;
+  margin-bottom: 0;
+  /* FFFFDD; */
+  }
+
+/* .navbar {
+  background-color: #FFEEEE;
+} */
+
+#home {
+  background-color: #FCFEFE;
+  padding-bottom: 1.3rem;
+}
+
+.navbar {
+  padding-bottom: 0;
+  padding-top: 0;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .1);
+}
+
+.nav-item {
+  font-family: Comfortaa;
+  color: #197163;
+  font-size: 1rem;
+}
+
+
+.nav-link {
+  color: #4EEAF6;
+}
+
+.nav-link:hover {
+  color: #F12D2D;
+}
+
+.welcome-img {
+  width: 100%;
+  margin: 50px 20px 50px 20px;
+  /* padding-right: 50px; */
+}
+
+.home-desc {
+  padding: 50px 30px 50px 50px;
+  line-height: 2;
+  font-family: Montserrat;
+}
+
+p {
+  color: #197163;
+  font-family: Montserrat;
+}
+
+h1 {
+font-family: Montserrat;
+font-weight: bold;
+color: #EB4747;
+text-align: center;
+margin: 0 auto 20px;
+}
+
+h2 {
+  font-family: Montserrat;
+  font-weight: bold;
+  color: #4EEAF6;
+}
+
+h2:hover {
+  color: #F12D2D;
+}
+
+h3 {
+  color: #197163;
+  font-family: Montserrat;
+  text-align: center;
+}
+
+/* About Us Section */
+.text{
+	color: rgba(31,181,172,.9);
+	text-align: left;
+  line-height: 2;
+}
+
+
+.folded-corner:hover .text{
+	visibility: visible;
+	color: #000000;
+}
+.about-tab{
+	margin-top:1rem;
+}
+
+/*
+  nav link items
+*/
+.folded-corner{
+  padding: 25px 25px;
+  position: relative;
+  font-size: 90%;
+  text-decoration: none;
+  color: #999;
+  background: transparent;
+  transition: all ease .5s;
+  border: 1px solid rgba(31,181,172,.9);
+}
+.folded-corner:hover{
+	background-color: rgba(31,181,172,.9);
+}
+
+/*
+  paper fold corner
+*/
+
+.folded-corner:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-style: solid;
+  border-width: 0 0px 0px 0;
+  border-color: #ddd #000;
+  transition: all ease .3s;
+}
+
+/*
+  on li hover make paper fold larger
+*/
+.folded-corner:hover:before {
+	background-color: #D00003;
+  border-width: 0 50px 50px 0;
+  border-color: #eee #000;
+
+}
+
+.about-tab-1{
+	/* background-color: #000; */
+  background-color: #EEEEEE;
+  }
+.about-tab-1:hover .fa-icon-image {
+    /* color: #F12D2D; */
+    color: #F8B400;
+    transform: rotate(360deg) scale(1.5);
+}
+
+
+.fa-icon-image{
+	color: rgba(31,181,172,.9);
+	display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    font-size-adjust: none;
+    font-stretch: normal;
+    -moz-font-feature-settings: normal;
+    -moz-font-language-override: normal;
+    text-rendering: auto;
+    transition: all .65s linear 0s;
+    text-align: center;
+    transition: all 1s cubic-bezier(.99,.82,.11,1.41);
+}
+
+/* End of About-us Section */
+
+#about-us {
+  background-color: #4EEAF6;
+  /* 18978F; */
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.about-heading{
+  color: #F8B400;
+  text-align: center;
+}
+
+
+.about-text {
+  color: white;
+  margin:8px 50px 20px;
+  line-height: 1;
+  text-align: center;
+}
+
+
+
+#our-policy {
+  /* background-color: #A2D5AB; */
+  background-color: #F8B400;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.wrap {
+  display: flex;
+  background: white;
+  padding: 1rem 1rem 1rem 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 7px 7px 30px -5px rgba(0,0,0,0.1);
+  margin-bottom: 1.5rem;
+  background-color: #F7F7F7;
+}
+
+.wrap:hover {
+  background: #54BAB9;
+  /* linear-gradient(135deg, #6394FF 0%, #0A193B 100%); */
+  color: white;
+}
+
+.ico-wrap {
+  margin: auto;
+}
+
+.h3-text {
+  padding: 0 10px;
+  line-height: 1;
+  color:#197163;
+  text-align: center;
+}
+
+.policy-p:hover {
+  color: #FFFFFF;
+}
+
+.policy-p {
+  font-size: 0.95rem;
+}
+
+.mbr-iconfont {
+  font-size: 4.5rem !important;
+  color: 313131;
+  margin:1rem;
+  padding-right: 1rem;
+  /* transition: all .65s linear 0s;
+  text-align: center;
+  transition: all 1s cubic-bezier(.99,.82,.11,1.41); */
+}
+
+.vcenter {
+  margin:auto
+}
+
+#Our-services {
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+  background-color: #FCFEFE;
+}
+
+
+#projects {
+  background-color: #4EEAF6;
+  /* FCFEFE; */
+  /* #18978F; */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.gallery-menu{
+  display: flex;
+  list-style: none;
+  padding:0;
+  margin-bottom: 0;
+}
+
+.carousel {
+  padding:0px;
+  }
+
+/* .gallery {
+  visibility: hidden;
+} */
+
+.gallery-text {
+  color:white;
+}
+
+
+.slider-button {
+  color: #4EEAF6;
+}
+
+.carousel-inner {
+  /* margin:20px 100px 30px 100px; */
+  padding: 10px 200px 10px;
+}
+
+/* Start of Client List */
+
+#clients {
+  padding-top: 4rem;
+  padding-bottom: 4.5rem;
+  background-color: #F8B400;
+  /* background-color: #97DBAE; */
+}
+
+.slider {
+  position:relative;
+  display:flex;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.logo {
+   width:45%;
+   margin:10px;
+   }
+
+#contact {
+  padding-top: 1rem;
+
+  background-color: #EEEEEE;
+}
+
+.enroll {
+  /* padding: 40px 30px 50px 40px; */
+  margin: 20px;
+}
+
+.formText {
+  padding: 10px;
+}
+
+.formName {
+  margin:10px 20px;
+  text-align:center;
+  padding:0px 100px;
+}
+
+.send-button {
+  text-align: center;
+  margin: 30px auto;
+  }
+
+.contact-form {
+  text-align: center;
+}
+
+.formInput {
+width:400px;
+}
+
+/* hr {
+  margin:0;
+} */
+
+#social-media {
+  background-color: #2C3639;
+  /* margin-bottom: 0; */
+  padding-bottom: 10px;
+}
+
+.media-text {
+  text-align: left;
+  padding:30px 20px 20px;
+
+  font-size:0.8rem;
+}
+
+ /* .media-content {
+  color:white;
+} */
+.media-content:hover {
+  color:#F12D2D;
+}
+
+.media-icons {
+  text-align:center;
+  padding:20px;
+}
+
+.media-links {
+  display:contents;
+  }
+
+.main-links {
+  text-align: center;
+  padding: 15px;
+}
+
+.micon {
+  margin:10px;
+  height:10px;
+}
+
+.page-links {
+  display: contents;
+}
+
+.pageurl {
+  /* padding:10px; */
+  color: white;
+  text-decoration:none;
+  padding:35px 10px 20px;
+  text-align: center;
+}
+
+.social-text {
+  color:white;
+}
+
+.copyright {
+  font-size: 0.6rem;
+  text-align: center;
+  padding-bottom:5px;
+  color:white;
+}
+
+.social-text:hover {
+  color:#F12D2D;
+}
+
+.pageurl:hover {
+  color:#F12D2D;
+}
+
+.micon:hover {
+  color:#F12D2D;
+}
+
+.copyright:hover {
+  color:#F12D2D;
+}
